@@ -1,0 +1,60 @@
+git init
+
+Initialize a new Git repository.
+Syntax: git init [project-name]
+git clone
+
+Clone a repository into a new directory.
+Syntax: git clone <repository-url> [directory]
+git add
+
+Add file contents to the index (staging area).
+Syntax: git add <file>
+git commit
+
+Record changes to the repository.
+Syntax: git commit -m "Commit message"
+git status
+
+Show the working tree status.
+Syntax: git status
+git diff
+
+Show changes between commits, commit and working tree, etc.
+Syntax: git diff [commit]
+git log
+
+Show the commit logs.
+Syntax: git log
+git branch
+
+List, create, or delete branches.
+Syntax: git branch, git branch <branch-name>
+git checkout
+
+Switch branches or restore working tree files.
+Syntax: git checkout <branch-name>, git checkout -- <file>
+git merge
+
+Join two or more development histories together.
+Syntax: git merge <branch-name>
+git remote
+
+Manage set of tracked repositories.
+Syntax: git remote add <remote-name> <repository-url>
+git fetch
+
+Download objects and refs from another repository.
+Syntax: git fetch <remote-name>
+git pull
+
+Fetch from and integrate with another repository or a local branch.
+Syntax: git pull <remote-name> <branch-name>
+git push
+
+Update remote refs along with associated objects.
+Syntax: git push <remote-name> <branch-name>
+git rm
+
+Remove files from the working tree and from the index.
+Syntax: git rm <file>
