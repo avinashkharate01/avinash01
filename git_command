@@ -71,3 +71,12 @@ git tag
 
 Create, list, delete, or verify a tag object signed with GPG.
 Syntax: git tag -a <tag-name> -m "Tag message"
+
+git reset
+
+Reset current HEAD to the specified state.
+Syntax: git reset [--soft | --mixed | --hard] <commit>
+git rebase
+
+Forward-port local commits to the updated upstream head.
+Syntax: git rebase <branch-name>
